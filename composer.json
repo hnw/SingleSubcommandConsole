@@ -1,14 +1,13 @@
 {
     "name":        "hnw/single-subcommand-console",
     "license":     "MIT",
-
     "authors": [
         {
             "name": "Yoshio HANAWA"
         }
     ],
-
     "require": {
+        "php": ">=5.3.3",
         "symfony/console": "*"
     },
     "autoload": {
