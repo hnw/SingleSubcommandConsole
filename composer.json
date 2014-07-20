@@ -1,0 +1,18 @@
+{
+    "name":        "hnw/single-subcommand-console",
+    "license":     "MIT",
+
+    "authors": [
+        {
+            "name": "Yoshio HANAWA",
+        },
+    ],
+
+    "require": {
+        "symfony/console": "*"
+    },
+    "autoload": {
+        "psr-0": { "Hnw\\SingleSubcommandConsole": "src" }
+    },
+    "target-dir": "Hnw/SingleSubcommandConsole",
+}
