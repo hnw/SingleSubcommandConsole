@@ -4,15 +4,14 @@
 
     "authors": [
         {
-            "name": "Yoshio HANAWA",
-        },
+            "name": "Yoshio HANAWA"
+        }
     ],
 
     "require": {
         "symfony/console": "*"
     },
     "autoload": {
-        "psr-0": { "Hnw\\SingleSubcommandConsole": "src" }
-    },
-    "target-dir": "Hnw/SingleSubcommandConsole",
+        "psr-4": { "Hnw\\SingleSubcommandConsole\\": "src/" }
+    }
 }
