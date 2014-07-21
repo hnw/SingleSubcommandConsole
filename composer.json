@@ -10,6 +10,9 @@
         "php": ">=5.3.3",
         "symfony/console": "*"
     },
+    "require-dev": {
+        "phpunit/phpunit": "4.1.*"
+    },
     "autoload": {
         "psr-4": { "Hnw\\SingleSubcommandConsole\\": "src/" }
     }
